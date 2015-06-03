@@ -19,3 +19,49 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
+
+//Chat.hbs styling
+
+.container-chat{
+  background-color:blue;
+  height:1000px;
+  @include outer-container(1200px);
+}
+
+.h1-chat{
+  text-align:center;
+  color:white;
+  padding:10px;
+  text-decoration: underline;
+}
+
+.content-chat{
+  @include span-columns(12);
+
+}
+
+.sidebar-chat{
+  @include span-columns(3 of 12);
+  text-align:center;
+  height:auto;
+  color:white;
+}
+
+.span-9{
+  @include span-columns(9 of 12);
+}
+
+.messages-chat{
+  color:white;
+  text-align:center;
+}
+
+.comment-chat{
+  background-color:white;
+  color:black;
+  text-align:center;
+}
+
+.h2-chat{
+
+}

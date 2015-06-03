@@ -1,0 +1,7 @@
+this["JST"] = this["JST"] || {};
+this["JST"]["chat"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "<section class=\"container-chat\">\n\n  <h1 class=\"h1-chat\">Welcome to Group Chat</h1>\n\n  <div class=\"content-chat\">\n\n    <div class=\"sidebar-chat\">\n      <h2 class=\"h2-chat\">Users</h2>\n      <div class=\"sidebar-conatiner-chat\"></div>\n    </div>\n\n      <div class=\"span-9\">\n        <div class=\"messages-chat\">\n          <h2 class=\"h2-chat\">Friendly Messenger</h2>\n          <div class=\"messages-container-chat\"></div>\n        </div>\n\n        <div class=\"comment-chat\">\n          <h2 class=\"h2-chat\">Write a Comment!</h2>\n          <form class=\"leave-comment-chat\">\n            <input class=\"leave-comment-chat-messages\" type=\"text\" placeholder=\"Comment\">\n            <input type=\"submit\" value=\"Enter\">\n          </form>\n        </div>\n      </div>\n\n  </div>\n\n\n</section>\n";
+},"useData":true});
+this["JST"]["login"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "<form class=\"login-form\">\n    <input class=\"login-form-username\" type=\"text\" placeholder=\"Username\">\n    <input type=\"submit\" value=\"Log In\">\n</form>\n";
+},"useData":true});
